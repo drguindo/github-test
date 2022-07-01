@@ -1,0 +1,134 @@
+/* mon prémier style  */
+
+.container {
+  font-style: italic;
+  color: blueviolet;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 24px;
+}
+.couleur_verte {
+  color: rgb(42, 165, 89);
+}
+#para_1{
+  color: blue;
+  text-align: center;
+  font-size: 120%;
+}
+.couleu_rouge {
+  color: rgb(221, 22, 55);
+}
+h2 {
+  font-size: 24px;
+}
+p {
+  font-size: 15px;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+h2 {
+  color: brown;
+}
+p {
+  font-weight: bolder;
+}
+p {
+  line-height: 28px;
+}
+/* centre*/
+.centre {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+}
+.minuscule {
+  text-transform: lowercase;
+}
+.interligne {
+  line-height: 24px;
+  font-size: 16px;
+  color: blue;
+}
+.font_vert {
+  background-color: powderblue;
+}
+/*la couleure de bontton*/
+.BtnConnecter {
+  width: 150px;
+  height: 35px;
+  background-color: green;
+  color: black;
+}
+/* les marge entre ":" et les input*/
+.textbox {
+  margin-left: 35px;
+}
+/*Image de font*/
+.image_font {
+  background-image: url(./Image/Consultation_patient.png);
+}
+
+/* aligne à gauche*/
+.aligne_droite {
+  text-align: right;
+  font-size: 20px;
+  color: blue;
+}
+.img_logo{
+  vertical-align: super;
+  
+  
+}
+
+/*les cadre des textes du plus grand au plus petit*/
+#grand{
+  width: 1800px;
+  border: 10px solid green;
+  text-align: center;
+  margin: 75px;
+}
+#moyen{
+  width: 1500px;
+         height: 70px;
+         border: 8px solid red;
+         max-width: 100%;
+         height: 70px;
+}
+#petit{
+    margin: 20px 40px 20px;
+    border: 6px solid blue;
+    max-width: 270%;
+    height: 90px;
+    text-align: justify;
+}
+/*text justifier*/
+#justifier{
+  background-color: none;
+  color: black;
+  font-family: cursive;
+  font-size: 30pt;
+  text-align: justify;
+}
+/*les qutres cotés de marges*/
+.marge{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-right: 150px;
+  margin-left: 200px;
+  }
+/*un cadre avec ces  marge*/
+.cadre_marge{
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: lightblue;
+}
+/*la taille des images*/
+.taille_image{
+    width: 250px;
+}
+
+

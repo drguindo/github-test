@@ -1,0 +1,23 @@
+form.form_formulaire {
+    display: table;
+    
+}
+
+div.form_div {
+    display: table-row;
+    
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 15px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.form_centre {
+  text-align: center;
+  color: black;
+  font-size: 30px;}

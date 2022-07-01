@@ -1,0 +1,41 @@
+div {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 12.5%;
+  margin-right: 0.305%;
+  text-align: center;
+  line-height: 4;
+  color: white;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+  background: rgba(31, 2, 194, 0.993);
+}
+
+a:hover {
+  background: rgb(3, 110, 48);
+}
+
+a:active {
+  background: red;
+  color: white;
+}

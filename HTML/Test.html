@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Formulaire enregistrement patient</title>
+        <link rel="stylesheet" href="/CSS/style.css">
+        <link rel="stylesheet" href="/CSS/Style_Formulaire.css">
+<style>
+
+</style>
+    </head>
+
+    <body class="font_vert">
+        
+              
+        <div class="marge">
+            <div id="grand">               
+                 <div id="petit">
+                    <div>
+                        <h1> APPLICATION DE COLLECT DE DONNES EN CHIRURGIE MAXILLO-FACIALE ET STOMATOLOGIE  </h1> 
+                    </div> 
+                    <p style="text-align:right;"><img  src="/Image/Patient.png" alt="patient" width="150" height="150" ></p>                     
+                 </div>                         
+            </div>
+        </div> 
+   
+        <div id="marge">
+            <h2 class="centre"> PATIENT</h2><hr> 
+        </div>
+       <h3> <a href="/HTML/Formulaire_Consultation.html" title="Retour formulaire patient">Allez Consltation </a></h3> 
+       
+    <div class="interligne"; >
+        <form action="/action_page.php">
+            <label for="IdPatient">IdPatient:</label>
+            <input type="text" id="IdPatient" name="IdPatient" value="ABC-08-06-22" ><br><br>
+            <label for="NomPatient">NomPatient:</label>
+            <input type="text" id="NomPatient" name="NomPatient" value="Amadou"> <br><br>
+            <label for="PrenomPatient">PrenomPatient:</label>
+            <input type="text" id="PrenomPatient" name="PrenomPatient" value="Dolo"><br><br>
+            <label for="AgePatient">AgePatient:</label>
+            <input type="text" id="AgePatien" name="AgePatient" value="20 ans"><br><br>
+            <label for="SexePatient">SexePatient:</label>
+            <input list="SexePatient" name="SexePatient">
+                <datalist id="SexePatient">
+                    <option value="M">
+                    <option value="F">
+                </datalist> <br><br>
+            <label for="Provenance">Provenance:</label>
+            <input type="text" id="Provenance" name="Provenance" value="BANDIAGARA"><br><br>
+            <label for="Ethnie">Ethnie:</label>
+            <input type="text" id="Ethnie" name="Ethnie" value="Dogon"><br><br>
+            <label for="Contacts">Contacts:</label>
+            <input type="text" id="Contacts" name="Contacts" value="76240641"> <br><br>
+            <label for="Mail">Mail:</label>
+            <input type="text" id="Mail" name="Mail" value="dralyab2@gmail.com"> <br><br>     
+            <input type="submit" value="Soumètre">
+          </form>
+    </div>
+
+     <div>
+        <ul>
+            <li><a href="../index.html">Retour Acceuil</a></li><li><a href="/HTML/Formulaire_Menu_Principal.html">Allez au menu principal</a></li><li><a href="login.html">Connectez-vous</a></li><li><a href="mailto:dralyab2@gmail.com?subject=Prise de contact">Ecrivez-moi</a></li><li><a href="tel:(+223)76240641"> contact mobile</a></li>
+        </ul>                     
+     </div> 
+        <p> Merci à bientôt</p>
+    </body>
+
+</html> 
